@@ -1,5 +1,5 @@
 # Nisarg's Lab
-## _The Web-Developer,Creater,Designer,Editor & Ethical Hacking (Learner) 
+## _The Web-Developer, Creater, Designer, Editor & Ethical Hacking (Learner) 
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
