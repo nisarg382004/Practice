@@ -15,7 +15,7 @@ AngularJS-powered HTML5 Markdown editor.
 
 - Import a HTML file to Visual Studio Lab and Recorrect some changes
 - Drag and drop images (requires your Dropbox account be linked)
-- To Import and save files Contact me on my Instagram : https://www.instagram.com/ig_nisargkumawat
+- To give your opinion for any changes contact me on my Instagram : https://www.instagram.com/ig_nisargkumawat
 - Drag and drop markdown and HTML files into Dillinger
 - Export documents as Markdown, HTML and PDF in your Lab.
 
