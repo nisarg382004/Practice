@@ -6,7 +6,7 @@
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
 AngularJS-powered HTML5 Markdown editor.
-
+npx nsolid-quickstart --saas="/ec#D{+n<epd%h9ZQsQ64H5bgfrwZ1RRGS.HS[y:8aea2a2e-93be-468e-875d-1fca58d20521.prod.proxy.saas.nodesource.io:9001" --demo
 - Type some Markdown on the left
 - See HTML in the right
 - ✨Magic ✨
