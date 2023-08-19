@@ -1,6 +1,20 @@
 # Nisarg's Lab
-## _The Web-Developer, Creater, Designer, Editor & Ethical Hacking (Learner) 
 
+Brief description or tagline for your project.
+
+[Optional: Project logo/banner/image]
+
+## Table of Contents
+- [About](#aboutMyProject)
+- [Features](#SomeCoolFeatures)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [License](#license)
+
+## About
+The Web-Developer, Creater, Designer, Editor & Ethical Hacking (Learner)
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
@@ -11,14 +25,17 @@ AngularJS-powered HTML5 Markdown editor.
 - ✨Magic ✨
 
 ## Features
+List the key features and functionalities of your project. Use bullet points for clarity.
 
-- Import a HTML file to Visual Studio Lab and Recorrect some changes
+- Feature 1:- Import a HTML file to Visual Studio Lab and Recorrect some changes
 - Drag and drop images (requires your Dropbox account be linked)
 - To give your opinion for any changes contact me on my Instagram : https://www.instagram.com/ig_nisargkumawat
 - Drag and drop markdown and HTML files into Dillinger
 - Export documents as Markdown, HTML and PDF in your Lab.
 
 Markdown is a lightweight markup language based on the formatting conventions
+that people naturally use in email.
+As [Nisarg] writes on the [Markdown site][df1]Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
 As [Nisarg] writes on the [Markdown site][df1]
 
@@ -52,8 +69,8 @@ to Markdown converter
 And of course Dillinger itself is open source with a [public repository][dill]
  on GitHub.
 
+ 
 ## Installation
-
 Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
 
 Install the dependencies and devDependencies and start the server.
@@ -66,17 +83,15 @@ node app
 
 For production environments...
 
-```sh
-npm install --production
-NODE_ENV=production node app
-```
 
-## Plugins
 
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
+```bash
+$ git clone https://github.com/nisarg382004/Practice.git
+$ cd dillinger
+$ npm install  # Or any other installation command
 
-| Plugin | README |
+
+##| Plugin | README |
 | ------ | ------ |
 | Dropbox | [plugins/dropbox/README.md][PlDb] |
 | GitHub | [plugins/github/README.md][PlGh] |
