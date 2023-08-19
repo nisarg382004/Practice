@@ -90,21 +90,17 @@ $ npm install  # Or any other installation command
 
 ## Plugin | README.md |
 
-```
+ Dropbox  [plugins/dropbox/README.md][PlDb] |
 
-| ------ | ------ |
+ GitHub | [plugins/github/README.md][PlGh] |
 
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
+ Google Drive | [plugins/googledrive/README.md][PlGd] |
 
-| GitHub | [plugins/github/README.md][PlGh] |
+ OneDrive | [plugins/onedrive/README.md][PlOd] |
 
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
+ Medium | [plugins/medium/README.md][PlMe] |
 
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-
-| Medium | [plugins/medium/README.md][PlMe] |
-
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+ Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
 ```
 
