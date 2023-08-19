@@ -1,9 +1,5 @@
 # Nisarg's Lab
 
-Brief description or tagline for your project.
-
-[Optional: Project logo/banner/image]
-
 ## Table of Contents
 - [About](#aboutMyProject)
 - [Features](#SomeCoolFeatures)
