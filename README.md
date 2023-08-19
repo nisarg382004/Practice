@@ -90,6 +90,7 @@ $ git clone https://github.com/nisarg382004/Practice.git
 $ cd dillinger
 $ npm install  # Or any other installation command
 
+```
 
 ## Plugin README.md 
 
