@@ -1,0 +1,43 @@
+-- Drop TableB if it exists
+DROP TABLE IF EXISTS TableB;
+-- Create TableB
+CREATE TABLE TableB (
+    ID INTEGER(10),
+    value VARCHAR(20)
+);
+-- Populate TableB
+INSERT INTO TableB VALUES (1, 'TROT');
+INSERT INTO TableB VALUES (2, 'CAR');
+INSERT INTO TableB VALUES (3, 'CAB');
+INSERT INTO TableB VALUES (6, 'MONUMENT');
+INSERT INTO TableB VALUES (7, 'PC');
+INSERT INTO TableB VALUES (8, 'MICROSOFT');
+INSERT INTO TableB VALUES (9, 'APPLE');
+INSERT INTO TableB VALUES (11, 'SCOTCH');
+
+-- Display TableB
+SELECT * FROM TableB;
+
+-- Drop TableA if it exists
+DROP TABLE IF EXISTS TableA;
+-- Create TableA
+CREATE TABLE TableA (
+    ID INTEGER(10),
+    value VARCHAR(20)
+);
+-- Populate TableA
+INSERT INTO TableA VALUES (1, 'FOX');
+INSERT INTO TableA VALUES (2, 'COP');
+INSERT INTO TableA VALUES (3, 'TAXI');
+INSERT INTO TableA VALUES (6, 'WASHINGTON');
+INSERT INTO TableA VALUES (7, 'DELL');
+INSERT INTO TableA VALUES (5, 'ARIZONA');
+INSERT INTO TableA VALUES (4, 'LINCOLN');
+INSERT INTO TableA VALUES (10, 'LUCENT');
+
+-- Combine results from LEFT OUTER JOIN and RIGHT OUTER JOIN to simulate a FULL OUTER JOIN
+SELECT * FROM TableA
+LEFT OUTER JOIN TableB ON TableA.ID = TableB.ID
+UNION
+SELECT * FROM TableB
+LEFT OUTER JOIN TableA ON TableB.ID = TableA.ID;
