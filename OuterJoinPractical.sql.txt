@@ -1,0 +1,31 @@
+DROP TABLE IF EXISTS TableB;
+create table TableB(
+  ID integer(10),
+  value varchar(20)
+  );
+  insert into TableB values(1,'TROT');
+  insert into TableB values(2,'CAR'); 
+  insert into TableB values(3,'CAB');
+  insert into TableB values(6,'MONUMENT');
+  insert into TableB values(7,'PC');
+  insert into TableB values(8,'MICROSOFT');
+  insert into TableB values(9,'APPLE');
+  insert into TableB values(11,'SCOTCH');
+  select * from TableB;
+  
+  DROP TABLE IF EXISTS TableA;
+  create table TableA(
+  ID integer(10),
+  value varchar(20)
+  );
+  insert into TableA values(1,'FOX');
+  insert into TableA values(2,'COP'); 
+  insert into TableA values(3,'TAXI');
+  insert into TableA values(6,'WASINGTON');
+  insert into TableA values(7,'DELL');
+  insert into TableA values(5,'ARIZONA');
+  insert into TableA values(4,'LINCOLN');
+  insert into TableA values(10,'LUCENT');
+  select * from TableA;
+  
+  select * from TableA LEFT outer join TableB On TableA.ID=TableB.ID
