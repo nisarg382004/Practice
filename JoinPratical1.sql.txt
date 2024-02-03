@@ -1,3 +1,5 @@
+--This code is for inner join only--
+
 create table TableB(
   ID integer(10),
   value varchar(20)
