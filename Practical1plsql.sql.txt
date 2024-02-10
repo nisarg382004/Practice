@@ -1,0 +1,10 @@
+declare
+v_x number(5);
+v_y number(5);
+v_sum number(10);
+begin
+v_x:=10;
+v_y:=20;
+v_sum:=v_x+v_y;
+dbms_output.put_line('sum is '||v_sum);
+end;
